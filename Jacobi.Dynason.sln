@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jacobi.Dynason", "Jacobi.Dynason\Jacobi.Dynason.csproj", "{34FF27E4-F552-4836-8243-144A282A71FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jacobi.Dynason.Tests", "Jacobi.Dynason.Tests\Jacobi.Dynason.Tests.csproj", "{7F1944BF-9885-490A-A9D5-980A162D33E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D9C05085-B603-4B70-ACB0-41BA30428A1B}"
+	ProjectSection(SolutionItems) = preProject
+		push-nuget.cmd = push-nuget.cmd
+		push-test.cmd = push-test.cmd
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34FF27E4-F552-4836-8243-144A282A71FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FF27E4-F552-4836-8243-144A282A71FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FF27E4-F552-4836-8243-144A282A71FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FF27E4-F552-4836-8243-144A282A71FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F1944BF-9885-490A-A9D5-980A162D33E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F1944BF-9885-490A-A9D5-980A162D33E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F1944BF-9885-490A-A9D5-980A162D33E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F1944BF-9885-490A-A9D5-980A162D33E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6284010-1D9F-4B2E-BBE3-C01260A8128F}
+	EndGlobalSection
+EndGlobal
