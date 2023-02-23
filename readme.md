@@ -26,7 +26,7 @@ dynamic doc = JsonDocument.Open("data.json");
 
 // navigate structure using the property names.
 // use 'JsonElement' as a base type.
-JSonElement element = doc.Field1.Field2;
+JsonElement element = doc.Field1.Field2;
 
 // test what kind of Json element this is.
 if (element.IsString)
@@ -59,7 +59,7 @@ Iterating over Array items or Object properties:
 ```csharp
 // there is also a Parse method
 dynamic doc = JsonDocument.Parse(...);
-JSonArray array = doc.Field1;
+JsonArray array = doc.Field1;
 
 // use a concrete type for the item variable.
 foreach (JsonString item in array)
